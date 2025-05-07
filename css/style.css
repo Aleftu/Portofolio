@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: gray;
 }
 
 #Loading {
@@ -130,7 +131,7 @@ main {
 }
 
 aside {
-    flex: 3; /* Lebih kecil */
+    flex: 1; /* Lebih kecil */
 }
 aside p {
     font-size: 0.8rem; /* Kecilkan font sedikit */
@@ -140,10 +141,7 @@ q {
     display: block;
     margin-bottom: 2rem;
 }
-#Pencapaian {
-    display: flex;
-    gap: 15px;
-}
+
 .card:hover {
     transform: translateY(-5px) scale(1.03); /* Sedikit naik & membesar */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); /* Bayangan lebih dalam */
